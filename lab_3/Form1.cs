@@ -7,5 +7,11 @@ namespace lab_3
             InitializeComponent();
         }
 
+        private void unitTestToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            UnitTestForm f = new UnitTestForm();
+            f.Show();
+            this.Hide();
+        }
     }
 }
